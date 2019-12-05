@@ -19,7 +19,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: On production, set SECRET_KEY env variable to override
-SECRET_KEY = '84@rmqumyx9bke=g@awtj_7(_$0e*9z5*wrppunagcm3u8+(4c'
+#SECRET_KEY = '84@rmqumyx9bke=g@awtj_7(_$0e*9z5*wrppunagcm3u8+(4c'
 
 ALLOWED_HOSTS = []
 
