@@ -19,7 +19,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: On production, set SECRET_KEY env variable to override
-#SECRET_KEY = '84@rmqumyx9bke=g@awtj_7(_$0e*9z5*wrppunagcm3u8+(4c'
+SECRET_KEY = '84@rmqumyx9bke=g@awtj_7(_$0e*9z5*wrppunagcm3u8+(4c'
 
 ALLOWED_HOSTS = []
 
@@ -114,11 +114,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-#STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles/')
+STATIC_ROOT = os.path.join(BASE_DIR, '/app/core/static/')
 
-STATICFILES_DIRS = (
-    (os.path.join(BASE_DIR, 'static')),
-)
+# STATICFILES_DIRS = (
+#     (os.path.join(BASE_DIR, 'static')),
+# )
 
 # We also needed to add this to specify where the downloads go
 MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads/')
